@@ -1,0 +1,10 @@
+StupidSort
+
+Base:
+A database that fills it's db-files with data about words it doesn't know. If sufficient data is availiable in multiple languages it will translate the input-text. Because of the complexity of language only simple sentences will be supported (at first?!?)
+
+Planned features:
+Site with a input textbox and a process-button
+A popup if a word is unknown to get the information it needs to process it
+An output page for the (partially) translated text
+Finally the database which should have the ability to sort words by context and choose the most appropriate to represent it in the output.
