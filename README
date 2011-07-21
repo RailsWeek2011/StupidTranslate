@@ -1,51 +1,23 @@
 StupidTranslate
 
-Base:
-A database that fills it's db-files with data about words it doesn't know. If sufficient data is availiable in multiple languages it will translate the input-text. Because of the complexity of language only simple sentences will be supported (at first?!?)
+internal:
+1. translator			|pending
+2. account-&rechte-system	|pending
+3. mailing			|pending
+4. language-db 			|pending
+5. submittables for l-db	|pending
+6. web-presentation		|pending
+7. algorithm-editor		|optional
+8. submittables for a-db	|pending
 
-Planned features:
-Site with a input textbox and a process-button
-A popup if a word is unknown to get the information it needs to process it
-An output page for the (partially) translated text
-Finally the database which should have the ability to sort words by context and choose the most appropriate to represent it in the output.
+interactive forum+:
+1. interactive page-creation for forum	|pending
+2. base-forum incl. discussion/recension|pending
+3. admin&mod areas			|pending
+4. var. rights for User-Groups		|pending
+5. reply-to-db (unknown words)		|pending
+6. db-management (access-dep.)		|pending
+7. access to alg.-editor		|optional
 
-//change language to german
- 
-Account-System:
-4 Typen von Usern
 
-Admin:	Zugriff aud Account-db => damit: sperren/löschen/Ernennung zum mod 
-	Rechte zu kommentieren/posten/antworten
-	Löschen von Posts
-	mailen
-	Übersetzungsfunktion nutzen
-	Wartung/moderierung auf algorithmus-site
 
-Sprachmoderator:	Zugriff Sprach-db der zugeordneten Sprache
-			Rechte zu kommentieren/posten/antworten
-			Löschen von Posts im eigenen Sprachbereich
-			prüfung & validierung der von Usern übertragenen Eintraege in die Sprach-db
-			mailen
-			Übersetzungsfunktion nutzen
-
-User:	Posten/antworten/kommentieren
-	bewerten von Beiträgen
-	bewerten von Übersetzungen
-	mailen
-	Eintraege in Sprach-dbs vorschlagen (benötigt validierung durch sprachmod)
-	Übersetzungsfunktion nutzen
-
-Unregistrierter user:	Übersetzungsfunktion nutzen
-______________________
-
-Accountsystem:		mailen - gesendet wird von der acc-datenbank an gespeicherte adresse
-			Automatische validierung der Anmeldung - bestätigung per mail
-			Bestandteile des "Users": ['Nickname', 'password','Country','email','languages known', Punktestand]
-			Möglichkeit f.d. Admins, Rechte zu verteilen
-
-View-System:		Main-Seite:	Übersetzer,Registrieren, Login
-					wenn angemeldet zusätzlich: Sprachseiten, algorithmus-seite
-
-			Sprachseiten:	Submit-to-db, allg. posting
-
-DB-submit:		Bestandteile: Datum, Username, Eintrag/änderung
